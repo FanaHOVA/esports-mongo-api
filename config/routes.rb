@@ -5,5 +5,5 @@ Rails.application.routes.draw do
   resources :teams
   resources :players, except: [:show]
 
-  root to: 'players#index'
+  root to: 'games#index'
 end

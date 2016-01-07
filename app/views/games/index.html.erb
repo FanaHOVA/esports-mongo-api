@@ -1,0 +1,4 @@
+<% @games.each do |g| %>
+  <%= g.away_team.name %> vs <%= g.home_team.name %> @ <%= g.tournament.name %>
+  <a href="<%= g.demo_download %>">Download demo</a><br>
+<% end %>
