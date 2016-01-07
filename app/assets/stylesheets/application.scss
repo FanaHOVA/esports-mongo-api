@@ -1,0 +1,12 @@
+@import "bourbon";
+@import "neat";
+@import "refills/game_card";
+
+body {
+  font-family: $helvetica;
+}
+
+.games-index {
+  max-width: 100%;
+  margin: 0 auto;
+}
